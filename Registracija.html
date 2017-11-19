@@ -16,29 +16,63 @@
     </div>
 </head>
 <body background="Images/background.png">
-<div class="forma">
+<div class="heading">
     <h1>Užiregistruokite vietai slėptuvėje!</h1>
 </div>
+<br>
         <div>
-             <form class="table" method="get">
+             <form class="forma" method="get">
+                 <label>Jūsų vardas</label>
         <input type="text" name="Jūsų vardas" placeholder="įveskite vardą" ><br><br>
+                 <label>Jūsų pavardė</label>
         <input type="text" name="Jūsų pavardė" placeholder="įveskite pavardę"><br><br>
+                 <label>Jūsų el. paštas</label>
         <input type="email" name="Jūsų el. paštas" placeholder="įveskite el. paštą"><br><br>
+                 <label>Jūsų slaptažodis</label>
         <input type="password" name="Jūsų slaptažodis" placeholder="įveskite slaptažodį"><br><br>
+                 <label>Pakartokite slaptažodį</label>
         <input type="password" name="Pakartokite slaptažodį" placeholder="pakartokite slaptažodį"><br><br>
-        <input type="tel" name="Jūsų telefono numeris" placeholder="įveskite telefono numerį"><br>
-                 Vyras
+                 <label>Jūsų telefono numeris tarptautiniu formatu</label>
+        <input type="tel" name="Jūsų telefono numeris" placeholder="įveskite telefono numerį"><br><br>
+                 <label>Vyras</label>
                  <input type="radio" name="Vyras" placeholder="Vyras"><br>
-                 Moteris
+                 <label>Moteris</label>
                  <input type="radio" name="Moteris" placeholder="Moteris"><br>
-                 Jūsų gimimo data
-        <input type="date" name="Jūsų gimimo data"><br>
-        <input type="text" name="Jūsų adresas"><br>
-        <input type="number" name="Jūsų pašto kodas"><br>
-        <input type="number" name="Jūsų pašto kodas"><br>
-        <select name="Miestas"
+                 <label>Jūsų gimimo data</label>
+        <input type="date" name="Jūsų gimimo data"><br><br>
+                 <label>Jūsų adresas</label>
+        <input type="text" name="Jūsų adresas" placeholder="įveskite savo adresą"><br><br>
+                 <label>Jūsų pašto kodas</label>
+        <input type="number" name="Jūsų pašto kodas"><br><br>
 
+
+        <label for="Miestas">Miestas iš kurio esate</label>
+                 <select id="Miestas" name="Miestas">
+                     <option value="Vilnius">Vilnius</option>
+                     <option value="Kaunas">Kaunas</option>
+                     <option value="Klaipėda">Klaipėda</option>
+                     <option value="Riga">Riga</option>
+                     <option value="Daugavpils">Daugavpils</option>
+                     <option value="Liepaja">Liepaja</option>
+                     <option value="Tallinn">Tallinn</option>
+                     <option value="Tartu">Tartu</option>
+                     <option value="Narva">Narva</option>
+                 </select>
+                        <label for="Šalis">Šalis iš kurios esate</label>
+                             <select id="Šalis" name="Šalis">
+                                 <option value="Lietuva">Lietuva</option>
+                                 <option value="Latvija">Latvija</option>
+                                 <option value="Estija">Estija</option>
+                             </select><br>
+                 <br>
+                 <br>
+                <textarea name="Komentarai" rows="50" cols="100" placeholder="Trumpai aprašykite save: Koks Jūs, kokie Jūsų charakterio bruožai, kokie Jūsų pomėgiai. Svarbūs faktai, kurie gali nulemti visų slėptuvės gyventojų gerovę Jūsų atžvilgiu"></textarea>
+                 <br>
+                 <br>
+                 <input type="submit" name="Pateikti">
             </form>
-        </div>
 </body>
 </html>
+
+
+
