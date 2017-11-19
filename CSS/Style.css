@@ -1,5 +1,5 @@
 .heading{
-    color: white;
+    color: lightslategray;
     font-size: 50px;
 }
 .entry {
@@ -10,4 +10,16 @@
     font-size: 15px;
     text-align: center;
     border: solid;
+}
+.tekstas {
+    color: white;
+    font-size: 15px;
+}
+.table {
+    color: white;
+    font-size: 30px;
+}
+.table .header{
+    color: red;
+    font-size: 30px;
 }
