@@ -1,6 +1,7 @@
 .heading{
     color: lightslategray;
-    font-size: 50px;
+    text-align: center;
+    font-size: 30px;
 }
 .entry {
     margin: 0px auto; display: block;
