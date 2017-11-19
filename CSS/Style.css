@@ -5,3 +5,9 @@
 .entry {
     margin: 0px auto; display: block;
 }
+.linkai {
+    color: lightslategray;
+    font-size: 15px;
+    text-align: center;
+    border: solid;
+}
