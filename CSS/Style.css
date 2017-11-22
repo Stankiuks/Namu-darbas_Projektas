@@ -11,6 +11,7 @@
     font-size: 15px;
     text-align: center;
     border: solid;
+    list-style-type: none;
 }
 .tekstas {
     color: white;
